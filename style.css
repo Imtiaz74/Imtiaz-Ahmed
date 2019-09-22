@@ -1,0 +1,121 @@
+
+
+html {
+    box-sizing: border-box
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Cookie', cursive;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.col-left {
+    width: 30%;
+    float: left;
+}
+
+.col-right {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+}
+
+a {
+    color: blue;
+}
+
+/* ======== Introduction ======== */
+
+header {
+    background: Black;
+    color: #FFFFFF;
+    min-height: 350px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.intro {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#profile {
+    padding-top: 30px;
+    text-align: justify;
+}
+
+#profile a:hover {
+    text-decoration: none;
+}
+
+
+/* ======== Work Experience ======== */
+
+.work {
+    background:#A3B54F;
+    padding-top: 30px;
+    min-height: 350px;
+}
+
+#job2 {
+    clear: both;
+}
+
+/* ======== Education Section ======== */
+
+.education {
+    background:#F7F0BA ;
+    padding: 30px 0;
+    color: black;
+    min-height: 350px;
+}
+
+#school {
+    clear: both;
+}
+
+/* ======== Footer Section ======== */
+
+footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+    min-height: 250px;
+}
+
+.social a {
+    text-decoration: #FFFFFF;
+    background: #4267B2;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.social a:hover {
+    color: red;
+}
+
